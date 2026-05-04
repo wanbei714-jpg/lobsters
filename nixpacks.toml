@@ -1,2 +1,5 @@
 [phases.setup]
-nixPkgs = ["vips", "glib", "pkg-config", "gcc", "python3"]
+nixPkgs = ["vips", "glib", "pkg-config", "gcc"]
+
+[variables]
+LD_LIBRARY_PATH = "/nix/store"
