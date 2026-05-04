@@ -6,3 +6,6 @@ cmds = ["bundle install"]
 
 [phases.build]
 cmds = ["bundle exec rake assets:precompile"]
+
+[variables]
+BUNDLE_FORCE_RUBY_PLATFORM = "true"
