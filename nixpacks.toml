@@ -1,2 +1,8 @@
 [phases.setup]
-nixPkgs = ["sqlite", "sqlite.dev", "pkg-config", "gcc"]
+nixPkgs = ["sqlite", "pkg-config", "gcc"]
+
+[phases.install]
+cmds = ["bundle install"]
+
+[phases.build]
+cmds = ["bundle exec rake assets:precompile"]
