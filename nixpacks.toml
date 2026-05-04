@@ -1,2 +1,2 @@
 [phases.setup]
-aptPkgs = ["libvips-dev", "pkg-config"]
+nixPkgs = ["vips", "glib", "pkg-config", "gcc"]
