@@ -1,5 +1,2 @@
 [phases.setup]
-nixPkgs = ["vips", "glib", "pkg-config", "gcc"]
-
-[variables]
-LD_LIBRARY_PATH = "/nix/store"
+nixPkgs = ["sqlite", "sqlite.dev", "pkg-config", "gcc"]
